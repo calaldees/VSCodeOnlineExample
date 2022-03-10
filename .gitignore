@@ -1,4 +1,7 @@
 *.py[cod]
 **/__pycache__
 
+*.png
+*.jpg
+
 basic-line.html
