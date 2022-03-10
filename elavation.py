@@ -44,10 +44,12 @@ sea_level = 2  # change this and see what happens
 for y in range(image_src.height):
     for x in range(image_src.width):
         land_height = image_src.getpixel((x, y))  # Greyscale image so we get 0->255
+
         if land_height - sea_level > SEA_LEVEL_BASE:  # `>=` 24 for seeing jpeg artefacts
             c = (0, 255, 0)
         else:
             c = (0, 0, 255)
+
         image_des.putpixel((x, y), c)
 
 image_des.save('elavation_uk.png')
