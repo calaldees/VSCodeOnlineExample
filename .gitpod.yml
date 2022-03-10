@@ -2,8 +2,10 @@
 
 # Commands to start on workspace startup
 #tasks:
-#  - init: yarn install
-#    command: yarn build
+#  - name: Python Dependencies
+#    command: pip install pillow plotly
+#  - name: Web Fileserver
+#    command: python3 -m http.server
 
 # Ports to expose on workspace startup
 ports:
@@ -15,5 +17,6 @@ ports:
 # keep these in sync with ~/.vscode/extensions.json to support people with local dev environments
 vscode:
   extensions:
+    - ms-python.python
     - ms-azuretools.vscode-docker
     - streetsidesoftware.code-spell-checker

@@ -1,8 +1,6 @@
 # GitPodExample
 Example GitPod Environment
 
-https://gitpod.io#https://github.com/calaldees/GitPodExample
-
 
 Problem
 -------
@@ -15,18 +13,34 @@ This makes education difficult.
 Solution
 --------
 
-Use a remote development environment.
-GitPod provides a cloud/browser based profetional development environment for free with a GitHub login.
-(50 Hours free use every 30 days)
-Students can install packages and run command line applications.
-The state of workspace is from a GitHub repo. This allows a teacher to setup pre prepared resources.
+* Use a remote development environment
+* GitPod provides a cloud/browser based profetional development environment for free with a GitHub login
+    * (50 Hours free use every 30 days)
+* Students can install packages and run command line applications
+* The state of workspace is from a GitHub repo
+    * This allows a teacher to setup pre prepared resources
+
+
+Use
+---
+
+* Start Workspace (GitHub login required)
+    * https://gitpod.io#https://github.com/calaldees/GitPodExample
+* Stop
+    * Your remote environment will autoshutdown after 30min
+    * Stop manually with `GitPod (bottom-left) -> Stop Workspace`
 
 
 Demo
 ----
 
-This GitPod workspace is deliberatly bare-bones.
-I want students/teachers to install packages manually. These can be added to be performed automatically to `.gitpod.yml` if needed.
+* This GitPod workspace example is deliberatly bare-bones
+* I want students/teachers to
+    * manually install packages
+    * manually running the webserver
+        * This is a transferable concept/skill
+    * These can be added to be performed automatically to `.gitpod.yml` if desired for younger students
+
 
 ### Example: Plotly
 
