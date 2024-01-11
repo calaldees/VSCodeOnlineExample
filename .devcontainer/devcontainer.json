@@ -9,12 +9,15 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8000],
-	"portsAttributes": {
-		"8000": {
-			"label": "Server"
-		}
-	},
+	//"forwardPorts": [8000, 8001],
+	//"portsAttributes": {
+	//	"8000": {
+	//		"label": "Server"
+	//	},
+	//	"8001": {
+	//		"label": "Client"
+	//	}
+	//},
 
 
 	// Configure tool-specific properties.

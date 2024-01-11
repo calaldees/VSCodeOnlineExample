@@ -75,7 +75,7 @@ python3 -m http.server
 ```bash
 curl  -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" -O "https://shadedrelief.com/natural3/ne3_data/8192/elev_bump_8k.jpg"
 pip install pillow
-python3 elevation.py
+python3 elavation.py
 # view `elevation_uk.png` output
 ```
 
